@@ -1,9 +1,7 @@
 ## Welcome to GitHub Pages
 [structure_only](https://vsetteacher.github.io/html5-css3-and-js/main_folder/structure_only.html)
 
-  if (isAwesome){
-    return true
-  }
+ <button name="button" onclick="http://www.google.com">Click me</button>
 
 You can use the [editor on GitHub](https://github.com/vsetteacher/html5-css3-and-js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
