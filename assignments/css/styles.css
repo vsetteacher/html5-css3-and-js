@@ -1,12 +1,13 @@
 
 
-	.float-left 
+.float-left 
 {
 	float:left;
+	align-content: center;
 	width: 33%
 }
 
-footer {
+.footer {
    position:fixed;
    left:0px;
    bottom:0px;
