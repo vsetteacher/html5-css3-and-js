@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages
-[structure_only](https://github.com/vsetteacher/html5-css3-and-js/main_folder/structure_only.html)
+[structure_only](https://vsetteacher.github.io/html5-css3-and-js/main_folder/structure_only.html)
 
 You can use the [editor on GitHub](https://github.com/vsetteacher/html5-css3-and-js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
