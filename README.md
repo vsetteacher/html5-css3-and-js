@@ -2,7 +2,7 @@
 modified
 [structure_only](https://vsetteacher.github.io/html5-css3-and-js/main_folder/structure_only.html)
 
- <button name="button" onclick="http://www.google.com">my blog</button>
+ <input type="button" onclick="location.href='http://richardland.net';" value="Go to my blog" />
 
 You can use the [editor on GitHub](https://github.com/vsetteacher/html5-css3-and-js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
