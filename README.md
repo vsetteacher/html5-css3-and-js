@@ -1,6 +1,9 @@
 ## Welcome to GitHub Pages
 modified
 [structure_only](https://vsetteacher.github.io/html5-css3-and-js/main_folder/structure_only.html)
+<form action="http://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
 
  <input type="button" onclick="location.href='http://richardland.net';" value="Go to my blog" />
 
