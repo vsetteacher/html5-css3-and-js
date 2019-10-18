@@ -29,12 +29,13 @@ h2 {
 
 .float-left {
 	position:relative;
+	top: 50px;
 	float:left;
-	width: 30%;
+	width: 31%;
 	border: 1px solid black;
   	margin: 1%;
 
-  	padding-top: 5%;
+  	padding-top: 3em;
 
 	
 }
