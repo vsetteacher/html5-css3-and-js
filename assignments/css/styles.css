@@ -1,9 +1,11 @@
 
+.header{
+	text-align: center;
+}
 
-.float-left 
-{
+.float-left {
 	float:left;
-	align-content: center;
+	text-align: center;
 	width: 33%
 }
 
