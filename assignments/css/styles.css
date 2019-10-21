@@ -10,7 +10,7 @@ h2 {
 	text-align: center;
   	border: 2px solid black;
  	padding: 5px;
-  	width: 30%;
+  	width:200px;
   	position: absolute;
   	top:0;
     right:0;
@@ -20,7 +20,63 @@ h2 {
   	
 }
 
-@media screen and 
+@media screen and (min-width: 992px){
+	.float-left1, .float-left2, .float-left3 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	float:left;
+	width: 29%;
+	border: 2px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;
+	}
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.float-left1, .float-left2 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	float:left;
+	width: 46%;
+	border: 2px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;
+	}
+	.float-left3 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	clear: left;
+	width: 96%;
+	border: 2px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;	
+	}
+}
+
+@media screen and (max-width: 767px){
+	.float-left1, .float-left2, .float-left3 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	clear: left;
+	width: 96%;
+	border: 2px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;	
+	}
+}
 .Chicken {
 	background-color: pink;
 }
@@ -34,19 +90,7 @@ h2 {
 	background-color: rgb(255, 165, 0);
 }
 
-.float-left {
-	position:relative;
-	top: 50px;
-	float:left;
-	width: 29%;
-	border: 2px solid black;
-  	margin: 1%;
-  	padding: 1%;
-  	background:#999;
-  	padding-top: 3em;
 
-	
-}
 
 .footer {
    position:fixed;
