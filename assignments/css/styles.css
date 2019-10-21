@@ -1,26 +1,33 @@
 
 h2 {
+	font-family:Georgia, serif;
 	text-align: center;
+	font-size: 175%;
+
 }
 
 .Chicken, .Beef, .Sushi {
 	text-align: center;
-  	border: 1px solid black;
+  	border: 2px solid black;
  	padding: 5px;
   	width: 30%;
   	position: absolute;
   	top:0;
     right:0;
-
+    
+    font-weight: 900 !important;
+    font-size: 125%;
   	
 }
 
+@media screen and 
 .Chicken {
 	background-color: pink;
 }
 
 .Beef {
 	background-color: tomato;
+	color: white;
 }
 
 .Sushi {
@@ -31,10 +38,11 @@ h2 {
 	position:relative;
 	top: 50px;
 	float:left;
-	width: 31%;
-	border: 1px solid black;
+	width: 29%;
+	border: 2px solid black;
   	margin: 1%;
-
+  	padding: 1%;
+  	background:#999;
   	padding-top: 3em;
 
 	
