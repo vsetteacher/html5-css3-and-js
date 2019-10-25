@@ -1,0 +1,132 @@
+.navbar {
+	position:relative;
+	background-color: grey;
+	
+}
+.dropdown {
+	padding-left: 40px;
+	font-family: cursive !important;
+	font-weight: bold !important;
+	color: black !important;
+	margin-top: 10px;
+	font-size: 40px;
+}
+.btn {
+	display:none;
+	position: absolute;
+	top:0px;
+	right:50px;
+}
+.dropdown-menu {
+	position: absolute;
+	top:65px;
+	width: 100%; 
+	text-align: center; 
+	
+}
+
+h1 {
+	text-align: center;
+	font-family: cursive
+	font-weight: bold;
+	color: black;
+}
+
+#Chicken, #Beef, #Sushi {
+	text-align: center;
+  	border: 1px solid black;
+ 	padding: 5px;
+  	width:200px;
+  	position: absolute;
+  	top:0;
+    
+    
+    font-weight: 900 !important;
+    font-size: 125%;
+  	
+}
+
+@media screen and (min-width: 992px){
+	.float-left1, .float-left2, .float-left3 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	float:left;
+	width: 29%;
+	border: 1px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;
+	}
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.float-left1, .float-left2 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	float:left;
+	width: 46%;
+	border: 1px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;
+	}
+	.float-left3 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	clear: left;
+	width: 96%;
+	border: 1px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;	
+	}
+}
+
+@media screen and (max-width: 767px){
+	.float-left1, .float-left2, .float-left3 {
+	box-sizing:border-box;
+	position:relative;
+	top: 50px;
+	clear: left;
+	width: 96%;
+	border: 1px solid black;
+  	margin: 2%;
+  	padding: 10px;
+  	background:#999;
+  	padding-top: 3em;	
+	}
+
+	.btn{
+		display:inline;
+	}
+}
+#Chicken {
+	background-color: pink;
+}
+
+#Beef {
+	background-color: tomato;
+	color: white;
+}
+
+#Sushi {
+	background-color: rgb(255, 165, 0);
+}
+
+
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
