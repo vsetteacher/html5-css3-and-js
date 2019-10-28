@@ -37,10 +37,11 @@ h1 {
   	border: 1px solid black;
  	padding: 5px;
   	width:200px;
-  	position: absolute;
-  	top:0;
-    
-    
+  	margin-top:-2%;
+  	margin-bottom: 20px;
+  	margin-left:auto;
+  	margin-right:auto;
+  	position: relative;
     font-weight: 900 !important;
     font-size: 125%;
   	
@@ -50,7 +51,7 @@ h1 {
 	.float-left1, .float-left2, .float-left3 {
 	box-sizing:border-box;
 	position:relative;
-	top: 50px;
+	top: 30px;
 	float:left;
 	width: 29%;
 	border: 1px solid black;
@@ -126,7 +127,7 @@ h1 {
    position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:2%;
    width:100%;
-   background:#999;
+   background:#33BEFF;
 }
